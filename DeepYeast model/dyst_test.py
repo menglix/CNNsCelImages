@@ -2,7 +2,7 @@
 import numpy as np
 
 np.random.seed(123)
-import cPickle
+import Pickle
 from generateData import loadData
 from keras.preprocessing.image import ImageDataGenerator
 from keras.models import Sequential
